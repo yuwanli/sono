@@ -11,7 +11,7 @@
   export default {
     created () {
       let _this = this
-      _this.$nextTick(function () {
+      _this.$nextTick(function () {1
         let wrapper = _this.$refs.scroll;
         let touchstartY;
         wrapper.addEventListener( 'touchstart', function (ev) {

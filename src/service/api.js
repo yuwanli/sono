@@ -2,7 +2,8 @@ import router from '../router'
 import store from '../store'
 import {oauth} from "../utils/main.js"
 export default {
-  baseUrl:(process.env.NODE_ENV === 'development') ?"":'',
+  // baseUrl:"http://admin.sono.dev",
+  baseUrl:(process.env.NODE_ENV === 'development') ?"http://admin.sono.mobi":'http://admin.sono.mobi',
   errorMsg:{
     10001:"用户id为空",
     10002:"用户信息不存在",
